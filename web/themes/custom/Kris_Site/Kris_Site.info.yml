@@ -22,3 +22,6 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - Kris_Site/framework
+
+libraries:
+    - Kris_Site/fonts
