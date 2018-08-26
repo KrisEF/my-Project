@@ -15,6 +15,8 @@
 @import "component/tabs";
 @import "component/toolbar";
 
+$font: 'Josefin Slab', serif;
+
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
 
@@ -66,4 +68,14 @@ p:last-child,
   &:first-child {
     margin-top: 0;
   }
+}
+
+//Adjusting font in heading and paragraphs
+h1 {
+    font-family: $font;
+    font-weight: 600;
+    font-size: 3.5em;
+}
+p {
+    font-family: $font;
 }
