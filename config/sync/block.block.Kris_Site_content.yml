@@ -1,0 +1,22 @@
+uuid: 7f64fe99-caaf-4d04-9571-1eb97797ac64
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - Kris_Site
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: Kris_Site_content
+theme: Kris_Site
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
