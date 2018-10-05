@@ -1,0 +1,14 @@
+uuid: c18281e2-25bf-4d9d-9710-8ea65ba8a098
+name: personal-project
+mail: KristinFehr@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

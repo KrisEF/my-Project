@@ -1,0 +1,13 @@
+uuid: 20b38350-f499-4c6c-a4e1-ce4cc01aaed9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Personal contact form'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

@@ -1,0 +1,22 @@
+uuid: faad0cee-d6b1-4216-b65a-358ea2dc4591
+langcode: en
+status: true
+dependencies:
+  theme:
+    - Kris_Site
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: Kris_Site_local_tasks
+theme: Kris_Site
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

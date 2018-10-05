@@ -1,0 +1,22 @@
+uuid: 30dac022-fc78-4204-8e8c-f747eecb0a4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - Kris_Site
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: Kris_Site_help
+theme: Kris_Site
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

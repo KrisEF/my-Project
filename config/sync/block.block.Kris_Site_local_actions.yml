@@ -1,0 +1,20 @@
+uuid: 538d450d-21fd-435a-ab50-feb565ac126d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - Kris_Site
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: Kris_Site_local_actions
+theme: Kris_Site
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

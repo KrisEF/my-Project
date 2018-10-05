@@ -1,0 +1,22 @@
+uuid: 4bda8600-7a4c-404f-9394-1995d8c1d661
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - Kris_Site
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: Kris_Site_powered
+theme: Kris_Site
+region: navigation
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the Kris_Site theme.
+
+Kris_Site.settings:
+  type: theme_settings
+  label: 'Kris_Site settings'
